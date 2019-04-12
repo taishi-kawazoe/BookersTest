@@ -1,0 +1,12 @@
+http://192.168.33.10:3000/
+×上記のテストの途中でエラーになりました。該当するテストの処理やclass名・スペルミス・変数を定義しているかもう一度確認してから再提出して下さい。
+Error: net::ERR_CONNECTION_REFUSED at http://192.168.33.10:3000/
+    at navigate (/home/vagrant/node_modules/puppeteer/lib/FrameManager.js:101:37)
+    at <anonymous>
+  -- ASYNC --
+    at Frame.<anonymous> (/home/vagrant/node_modules/puppeteer/lib/helper.js:108:27)
+    at Page.goto (/home/vagrant/node_modules/puppeteer/lib/Page.js:656:49)
+    at Page.<anonymous> (/home/vagrant/node_modules/puppeteer/lib/helper.js:109:23)
+    at Object.exports.init (/vagrant/bookers2/bookers2-sub.js:67:18)
+    at /vagrant/bookers2/bookers2.js:55:28
+    at <anonymous>
